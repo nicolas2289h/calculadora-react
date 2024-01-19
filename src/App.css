@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body{
+  background-image: url('./4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-calc{
+  transform: scale(.7);
+  width: 400px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.parte-superior{
+  width: 100%;
+  z-index: 2;
+}
+
+.botonera-calc{
+   width: 100%;
+   /* min-height: 570px; */
+   padding: 25px 15px 20px 15px;
+   border-radius: 0px;
+   background-color: rgba(47, 0, 91, 0.266);
+}
+
+.fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* boton */
+.boton-contenedor, .boton-clear{
+  height: 75px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: #5dd9ff27;
+  color: #fff;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 200ms ease;
+}
+
+.operador{
+  background-color: #37f2ffc2;
+}
+
+/* PANTALLA */
+.input{
+  height: 75px;
+  width: 90%;
+  font-family: 'Comfortaa', cursive;
+  margin: 27px auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  background-color: #19196175;
+  color: #fff;
+  padding: 11px;
+  padding-right: 30px;
+  border: 1px solid #888;
+  box-shadow: 0 0 6px 3px #fff;
+  overflow: hidden;
+  text-shadow: 0 0 5px #7efffb, 0 0 5px #7efffb;
+  outline: none; 
+}
+
+/* BOTON CLEAR  */
+.boton-clear{
+  flex: 1;
+  background-color: rgb(255, 42, 110);
+}
+
+.neonTexto {
+  color: #fff;
+  text-shadow:
+  0 0 3px #fff,
+  0 0 4px #5dd9ff,
+  0 0 5px #5dd9ff;
+}
+
+
+.neon {
+  /* animation: pulsate 1.5s infinite alternate;     */
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe; 
+}
+
+.neon2 {
+  /* animation: pulsate 1.5s infinite alternate;     */
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #5dd9ff,
+            0 0 0.8rem #5dd9ff,
+            0 0 2.8rem #5dd9ff,
+            inset 0 0 1.3rem #5dd9ff; 
+}
+
+.italic{
+  font-style: italic;
+}
+
+.botonera-calc{
+  border-top-width: thin;
+  border-top: none;
+}
+
+form{
+  overflow: hidden;
+}
