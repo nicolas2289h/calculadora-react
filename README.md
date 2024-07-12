@@ -29,7 +29,5 @@ You may also see any lint errors in the console.
 
 ### Deployment
 
-Project Link: [https://nh-gestion-reservas.vercel.app](https://nh-gestion-reservas.vercel.app/)
-
-
+Project Link: [https://nh-calculadora.vercel.app](https://nh-calculadora.vercel.app/)
 
